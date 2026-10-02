@@ -1,0 +1,10 @@
+{
+  "description": "This interactive prototype enables commercial advisors to explore and test the usability of the Seguimiento platform, enhancing their understanding of client management.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

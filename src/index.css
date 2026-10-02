@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Poppins', 'Inter', system-ui, sans-serif;
+  --font-inter: 'Inter', system-ui, sans-serif;
+  --color-orbi: #06a3a0;
+  --color-orbi-dark: #048a87;
+  --color-orbi-soft: #e6f6f5;
+  --color-ink: #151a36;
+  --color-chrome: #36373a;
+  --color-chrome-muted: #6b6c6e;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background: #fff;
+}
+
+@keyframes toast-progress {
+  from {
+    transform: scaleX(1);
+  }
+  to {
+    transform: scaleX(0);
+  }
+}
